@@ -1,0 +1,16 @@
+Compilation: 
+To compile the executable, please use the command "make" or "make all".
+This executable will be named "myInterpreter" (myInterpreter.exe on windows)
+
+Usage :
+This executable needs another executable, compiled on the specific minix format.
+To use it, do the command "./myInterpreter file", with "file" being the name of the executable to interpret
+You can add the tag "-m" (ex: "./myInterpreter -m file") to detail every instruction or change of value in the simulated cpu and memory
+
+Architecture : 
+This interpreter works on the disassembler, it will give the code to the disassembler, and interpret the string instruction, making it easier to understand. 
+The CPU files are there to create the virtual CPU and memory, it also contains most of the functions that only act on it.
+All code is commented.
+
+Comments/Overall impressions:
+Interesting course with a lot of pratical work.
